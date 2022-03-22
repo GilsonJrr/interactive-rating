@@ -1,0 +1,55 @@
+.RatingBody{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.BackImg{
+    background-color: rgb(39, 46, 59);
+    height: 40px;
+    width: 40px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RatingBody p1{
+    color: var(--White);
+    font-size: 25px;
+    font-family: 'Overpass';
+    font-weight: 700;
+    margin: 15px 0px
+}
+
+.RatingBody p2{
+    color: var(--MediumGrey);
+    font-size: 14px;
+    font-family: 'Overpass';
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.RatingBody button{
+    outline: none;
+    background-color: var(--Orange);
+    border: none;
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 30px;
+
+    color: var(--White);
+    font-size: 15px;
+    font-family: 'Overpass';
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.RatingBody button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}

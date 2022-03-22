@@ -1,0 +1,40 @@
+.ThanksBody{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ThanksBody img{
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+.ThanksBody p1{
+    color: var(--White);
+    font-size: 25px;
+    font-family: 'Overpass';
+    font-weight: 700;
+    margin: 15px 0px
+}
+
+.ThanksBody p2{
+    color: var(--MediumGrey);
+    font-size: 14px;
+    font-family: 'Overpass';
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.Score{
+    background-color: rgb(39, 46, 59);
+    padding: 8px 15px;
+    border-radius: 30px;
+
+    color: var(--Orange);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'Overpass';
+    font-weight: 300;
+}
