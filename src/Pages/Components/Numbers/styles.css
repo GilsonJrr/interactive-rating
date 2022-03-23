@@ -8,15 +8,15 @@
 
 .NumbersBody button{
     background-color: rgb(39, 46, 59);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
 
     color: var(--MediumGrey);
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Overpass';
     font-weight: 700;
     cursor: pointer;
@@ -26,11 +26,6 @@
     background-color: var(--Orange);
     color: var(--White);
 }
-
-/* .NumbersBody button:active{
-    background-color: var(--MediumGrey);
-    color: var(--White);
-} */
 
 .NumbersBody button:focus{
     background-color: var(--MediumGrey);
